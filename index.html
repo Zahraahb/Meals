@@ -1,0 +1,246 @@
+
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Yummy</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ======================================================================================== -->
+<div class="left-nav position-fixed top-0 d-flex  ">
+    <div class="nav-tab d-flex flex-column justify-content-between   vh-100">
+        <ul class="nav-menue list-unstyled p-4 text-white ">
+            <li class="search">Search</li>
+            <li class="category">Categories</li>
+            <li class="area">Area</li>
+            <li class="ings">Ingredients</li>
+            <li class="cont">Contact Us</li>
+        </ul>
+        <div class="nav-footer text-white pb-4 ms-3">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+            <p>Copyright Â© 2019 All Rights
+                Reserved.</p>
+
+        </div>
+
+    </div>
+    <div class="nav-header bg-white vh-100 d-flex flex-column justify-content-between align-items-center py-4 text-black ">
+        <img src="img/logo.png" alt="" width="50px"> 
+        <i class="fa-solid  fa-align-justify fa-2x open-close  "></i>
+        <div class="social">
+            <i class="fa-solid fa-globe d-block mb-1"></i>
+            <i class="fa-solid fa-share-nodes d-block"></i>
+        </div>
+
+
+    </div>
+</div>
+<!-- ================================================================================================== -->
+
+<div class="loading-screen bg-black position-fixed   justify-content-center align-items-center text-white "  >
+    <i class="fa fa-spinner fa-spin fa-5x"></i>
+
+</div>
+
+<div class="inner-loading-screen bg-black position-fixed   justify-content-center align-items-center text-white  " style="display: none;">
+    <i class="fa fa-spinner fa-spin fa-5x"></i>
+</div>    
+
+<!-- =================================================================================================== -->
+<div class="searchdiv d-none">
+    <form action="" >
+       <div class="container w-75">
+        <div class="row inputa">
+            <div class="col-md-6">
+                <input type="text" class="form-control bg-transparent search-name" placeholder="Search By Name">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control  bg-transparent search-l" placeholder="Search By Frist Letter">
+
+            </div>
+            
+
+
+        </div>
+       </div>
+
+    </form>
+</div>
+<!-- ======================================================================================= -->
+
+<section id="main " class="main">
+
+
+
+
+<div class="items container">
+    <div class="row text-center g-4 mainCont">
+        <!-- <div class="col-md-3 item" data-id="">
+            <img src="img/58oia61564916529.jpg" alt="">
+            <div class="item-layer d-flex justify-content-center align-items-center">
+                <h3>Corba</h3>
+            </div>
+        </div>
+        <div class="col-md-3 item">
+            <img src="img/58oia61564916529.jpg" alt="">
+        </div>
+        <div class="col-md-3 item">
+            <img src="img/58oia61564916529.jpg" alt="">
+        </div>
+        <div class="col-md-3 item">
+            <img src="img/58oia61564916529.jpg" alt="">
+        </div> -->
+
+        <!--for area -->
+        <!-- <div class="col-md-3 text-white Area">
+            <i class="fa-solid fa-house-laptop fa-4x " ></i>
+            <span class="d-block h3">American</span>
+        </div>
+        <div class="col-md-3 text-white">
+            <i class="fa-solid fa-house-laptop fa-4x " ></i>
+            <span class="d-block h3">American</span>
+        </div>
+        <div class="col-md-3 text-white">
+            <i class="fa-solid fa-house-laptop fa-4x " ></i>
+            <span class="d-block h3">American</span>
+        </div>
+        <div class="col-md-3 text-white">
+            <i class="fa-solid fa-house-laptop fa-4x " ></i>
+            <span class="d-block h3">American</span>
+        </div> -->
+
+
+        <!-- for ingredients -->
+        <!-- <div class="col-md-3 text-white">
+            <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+            <h3>Chicken</h3>
+            <p>The chicken is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). It is one of</p>
+        </div>
+        <div class="col-md-3 text-white">
+            <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+            <h3>Chicken</h3>
+            <p>The chicken is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). It is one of</p>
+        </div>
+        <div class="col-md-3 text-white">
+            <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+            <h3>Chicken</h3>
+            <p>The chicken is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). It is one of</p>
+        </div>
+        <div class="col-md-3 text-white">
+            <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+            <h3>Chicken</h3>
+            <p>The chicken is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). It is one of</p>
+        </div> -->
+
+        <!-- for contact -->
+        <!-- <form action="" class="mt-5">
+            <div class="container   contact">
+                <div class="row">
+                    <div class="col-md-6 d-grid gap-3 ">
+                        <input type="text" id="nameInput" class="form-control " placeholder="Enter Your Name" >
+                        <div id="nameAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Special characters and numbers not allowed
+                        </div>
+                        <input type="text" id="phoneInput"  class="form-control" placeholder="Enter Your Phone" >
+                        <div id="phoneAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Enter valid Phone Number
+                        </div>
+                        <input type="password" id="passwordInput" class="form-control" placeholder="Enter Your Password">
+                        <div id="passwordAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Enter valid password *Minimum eight characters, at least one letter and one number:*
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 d-grid gap-3">
+                        <input type="email" id="emailInput" class="form-control " placeholder="Enter Your Email">
+                        <div id="emailAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Email not valid *exemple@yyy.zzz
+                        </div>
+                        <input type="number" id="ageInput" class="form-control" placeholder="Enter your Age">
+                        <div id="ageAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Enter valid age
+                        </div>
+                        <input type="password" id="repasswordInput" class="form-control" placeholder="Repassword">
+                        <div id="repasswordAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Enter valid repassword 
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="btn form-control mt-4 border border-danger text-danger" type="submit">Submit</button>
+            </div>
+        </form> -->
+
+        
+    </div>
+
+</div>
+</section>
+
+<!-- ======================================================================================= -->
+<section id="descreption " class=" descreption d-none">
+   <div class="w-100 d-flex justify-content-end">
+    <i class="fa-solid fa-x text-white d-inline-block me-5 h2"></i>
+   </div>
+    <div class="container text-white" >
+        <div class="row desc ">
+            <!-- <div class="col-md-4 text-center">
+                <img src="img/58oia61564916529.jpg" alt="" class="w-100 ">
+                <h3 class="mt-4">Corba</h3>
+            </div>
+            <div class="col md-8">
+                <h2 class="mb-4">Instructions</h2>
+                <p>Pick through your lentils for any foreign debris, rinse them 2 or 3 times, drain, and set aside.
+                    Fair warning, this will probably turn your lentils into a solid block that you’ll have to break up later In a large pot over medium-high heat,
+                    sauté the olive oil and the onion with a pinch of salt for about 3 minutes, then add the carrots and cook for another 3 minutes.
+                    Add the tomato paste and stir it around for around 1 minute. Now add the cumin, paprika, mint, thyme, black pepper,
+                    and red pepper as quickly as you can and stir for 10 seconds to bloom the spices. Congratulate yourself on how amazing your house now smells. 
+                    Immediately add the lentils, water, broth, and salt. Bring the soup to a (gentle) boil. After it has come to a boil, reduce heat to medium-low,
+                    cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are completely cooked. After the soup has cooked and the lentils are tender,
+                    blend the soup either in a blender or simply use a hand blender to reach the consistency you desire. Taste for seasoning and add more salt if necessary. Serve with crushed-up crackers, torn up bread,
+                    or something else to add some extra thickness. You could also use a traditional thickener (like cornstarch or flour), but I prefer to add crackers for some texture and saltiness. Makes great leftovers,
+                    stays good in the fridge for about a week.
+                </p>
+                <h3>
+                    <span>Area : </span>Turkish
+                </h3>
+                <h3>
+                    <span>Category : </span>Side
+                </h3>
+                <h3>
+                    <span>Recipes : </span>
+                </h3>
+               <div class="ingredints">
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+                <i class="alert alert-info m-2 p-1">1 cup Lentils</i>
+               </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+<!-- ======================================================================================= -->
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+    
+</body>
+</html>

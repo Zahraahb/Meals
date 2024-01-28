@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    padding-block: 50px;
+    overflow: hidden;
+   
+}
+
+.left-nav{
+    z-index: 99;
+    left:-250px;
+}
+.nav-tab{
+    width: 250px;
+    background-color: #0D0D0D;
+}
+.nav-header{
+    width: 60px;
+    
+}
+.nav-menue{
+    line-height:40px !important ;
+    cursor: pointer;
+    overflow: hidden;
+}
+.nav-menue li{
+    position: relative;
+    top: 250px;
+
+}
+i{
+    position: relative;
+    
+}
+.nav-footer img{
+  
+}
+.open-close{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+.loading-screen{
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+}
+
+#main {
+position: relative;
+}
+
+.inner-loading-screen{
+    z-index: 95;
+    top: 0;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.items{
+    position: absolute;
+    left: 90px;
+
+}
+.item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.item{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    
+}
+.btn-success, .btn-danger{
+    width: 100px !important;
+}
+.col-md-3{
+    cursor: pointer;
+}
+.item-layer{
+    position: absolute;
+   top:100%;
+   left: 12px;
+   height: 100%;
+   right: 12px;
+    background-color: rgba(255, 255, 255,0.7);
+    border-radius: 10px;
+    text-align: center;
+  
+   
+    transition: all 0.5s;
+}
+.item:hover .item-layer{
+    top: 0;
+    display: flex;
+    
+}
+.ingredints i{
+    
+    display: inline-block;
+
+}
+#descreption img{
+    border-radius: 10px;
+}
+.contact {
+    width: 80%;
+
+}
+.contact input{
+    height: 40px;
+}
+.btn{
+    width: 15%;
+}
+.searchdiv input{
+    color: #fff !important;
+}
+#submitBtn{
+transition: all 0.5s;
+}
+#submitBtn:hover{
+    background-color: red;
+    color: #fff !important;
+}
